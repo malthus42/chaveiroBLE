@@ -31,7 +31,7 @@ A aplicação executada no dispositivo tem vários arquivos. (Que foram copiados
 #### Lista de Materiais
 
 | Nome | Quantidade | link para foto do componente, de fato, utilizado |
-| ... | ... | ... |
+| --- | --- | --- |
 | Placa de desenvolvimento Ai-Thinker ESP32-C3 | 1 | Figura x, ... |
 | Protoboard | 1 | Na figura x, ... |
 | Buzzer | 1 | Na figura x, ... |
@@ -43,7 +43,7 @@ A aplicação executada no dispositivo tem vários arquivos. (Que foram copiados
 
 Tabela de conexões: 
 | Placa da lanterna | Pino da placa  de desenvolvimento | Pino no Buzzer |
-| ... | ... | ... |
+| --- | --- | --- |
 | GND | GND | GND |
 | VCC | V3 | ---|
 | Pino de controle do Led | 3 | --- |
