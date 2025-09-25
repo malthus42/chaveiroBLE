@@ -12,7 +12,7 @@ Para isso:
 
 ## Introdução 
 
-Para lidar com o problema de encontrar objetos próximos em um ambiente, propõe-se adaptar um chaveiro Led Para transformá-lo em um dispositivo de localização. 
+Para lidar com o problema de encontrar objetos próximos em um ambiente, propõe-se adaptar um chaveiro Led para transformá-lo em um dispositivo de localização. 
 
 Este dispositivo deve emitir um sinal sonoro e um sinal luminoso e ser controlado pelo celular. 
 
@@ -20,7 +20,7 @@ Do ponto de vista construtivo é um sistema de informação composto por circuit
 
 ## Método (de execução do projeto)
 
-Usou-se o método descrito em ... O tipo de projeto é forma de documentação foram escolhidos com base nas diretrizes da disciplina https://github.com/FNakano/CFA/blob/master/diretrizes.md .
+Usou-se o método descrito em [Método](./descricaoMetodo.md) . O tipo de projeto é forma de documentação foram escolhidos com base nas diretrizes da disciplina https://github.com/FNakano/CFA/blob/master/diretrizes.md .
 
 A aplicação executada no dispositivo tem vários arquivos. (Que foram copiados para esse repositório...)
 
