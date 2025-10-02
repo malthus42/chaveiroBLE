@@ -1,0 +1,15 @@
+# Node.js
+ESP32NUSApp/node_modules/
+ESP32NUSApp/npm-debug.log
+ESP32NUSApp/yarn-error.log
+
+# Android
+ESP32NUSApp/android/.gradle/
+ESP32NUSApp/android/app/build/
+ESP32NUSApp/android/build/
+*.apk
+*.keystore
+
+# Misc
+.env
+.DS_Store
