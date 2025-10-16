@@ -64,7 +64,8 @@ Tabela de conexões:
 
 ### Manual de usuário 
 
-...
+Baixe o arquivo main.py e utilizando a IDE thonny carregue o arquivo para o ESP32. Baixe o apk e abra-o no celular. 
+Certifique-se que o dispositivo está carregado e ligado, ao clicar no botão que aparece no aplicativo o led vai acender e o buzzer vai fazer um som.
 
 
 ### Manual de desenvolvedor
