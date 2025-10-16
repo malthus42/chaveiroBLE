@@ -7,5 +7,5 @@ O próximo passo é desenvolver um aplicativo para mandar o sinal Bluetooth no l
 O passo seguinte da elaboração do projeto foi criar a documentação seguindo o exemplo presente em https://github.com/FNakano/CFA2025-SampleProject.
 
 Depois, veio a fase de testes para transferir o dispositivo da protoboard para uma placa de perfurada de circuito impresso para acomodar todos os componentes. A seguir estão as fotos dessa primeira organização: 
-![](placaDeBaixo.png)
-![](placaDeCima.png)
+![](./placaDeBaixo.png)
+![](./placaDeCima.png)
