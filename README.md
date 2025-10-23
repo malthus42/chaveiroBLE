@@ -51,12 +51,8 @@ Tabela de conexões:
 
 #### Carga do programa em um novo dispositivo 
 
-1. Copie somente a pasta `src` e seu conteúdo;
-2. Entre na pasta `src`;
-3. Transfira para o dispositivo usando `rshell` com o comando `cp -r * /pyboard/`;
-4 Feche Russell com o comando `exit`;
-5. Abra o Thonny; 
-6. Na janela de comando do Thonny dê o comando `import startsystem`;
+Baixe o arquivo main.py e utilizando a IDE thonny carregue o arquivo para o ESP32.
+
 
 #### Teste de uso
 
