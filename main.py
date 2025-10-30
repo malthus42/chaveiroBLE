@@ -7,7 +7,7 @@ freq(80_000_000)
 led = Pin(8, Pin.OUT)
 led.on()
 
-buzzer = Pin(4, Pin.OUT, value=0)  
+buzzer = Pin(2, Pin.OUT, value=0)  
 big_led = Pin(3, Pin.OUT, value=1)  
 
 ble = bluetooth.BLE()
