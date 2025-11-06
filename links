@@ -1,3 +1,6 @@
 documentação do micropython:
 deepsleep:
 https://docs.micropython.org/en/latest/library/machine.html#machine.deepsleep
+
+
+https://stackoverflow.com/questions/76823215/deep-sleep-with-ext0-or-ext1-on-esp32-c3-mini-1
