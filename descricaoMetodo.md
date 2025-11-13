@@ -12,3 +12,7 @@ Depois, veio a fase de testes para transferir o dispositivo da protoboard para u
 
 Após avaliar a organização na placa de circuito impresso, foi decidido soldar os componentes diretamente para diminuir o tamanho do dispositivo. Com os componentes conectados, eles foram colados com cola quente, o resultado ficou como na imagem abaixo:
 
+Por fim, foi criado uma caixa para guardar esse sistema com uma garrafinha. O resultado final ficou como na foto abaixo:
+
+Um problema dessa caixa é que não é possível desligar o sistema, só carregar. Portanto, ao ser carregado o sistema fica ligado até descarregar. 
+
