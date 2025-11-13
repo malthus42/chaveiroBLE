@@ -1,6 +1,19 @@
 documentação do micropython:
+
+bluetooth:
+https://docs.micropython.org/en/latest/library/bluetooth.html#module-bluetooth
+
+machine - Pin:
+https://docs.micropython.org/en/latest/library/machine.Pin.html#class-pin-control-i-o-pins
+
+machine - idle:
+https://docs.micropython.org/en/latest/library/machine.html#machine.idle
+
+machine - freq:
+https://docs.micropython.org/en/latest/library/machine.html#machine.freq
+
+time:
+https://docs.micropython.org/en/latest/library/time.html#module-time
+
 deepsleep:
 https://docs.micropython.org/en/latest/library/machine.html#machine.deepsleep
-
-
-https://stackoverflow.com/questions/76823215/deep-sleep-with-ext0-or-ext1-on-esp32-c3-mini-1
