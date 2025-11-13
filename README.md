@@ -84,3 +84,5 @@ Para diminuir o tamanho do sistema, a placa de circuito impresso foi substituíd
 
 Para diminuir o consumo de energia, foi testado o deepsleep, entretanto a dificuldade em controlar quando o modo deepsleep começa e termina e o fato de não ser possível usar o bluetooth nesse modo fizeram com que escolheremos outra abordagem para diminuir o consumo de energia. A nova abordagem foi diminuir a frequência do processador e usar uma função de baixo consumo (idle) no loop principal. Essa abordagem resultou em uma autonomia de 2 horas.
 
+Para usar o deepsleep seria necessário adicionar um botão a placa para controlar quando esse modo seria ligado e desligado, contudo faltou tempo para adicionar o botão e os componentes já estava colado, o que dificulta a adição do botão. 
+
