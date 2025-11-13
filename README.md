@@ -56,7 +56,7 @@ Baixe o arquivo main.py e utilizando a IDE thonny carregue o arquivo para o ESP3
 
 #### Teste de uso
 
-...
+Nos testes realizados a bateria do chaveiro fornecia energia para o sistema por aproximadamente 2 horas.
 
 ### Manual de usuário 
 
@@ -66,7 +66,15 @@ Certifique-se que o dispositivo está carregado e ligado, ao clicar no botão qu
 
 ### Manual de desenvolvedor
 
-...
+No código do esp foram usadas as bibliotecas: bluetooth, machine e time.
+
+A biblioteca bluetooth foi usada para ativar o bluetooth do esp, se conectar ao aplicativo  e receber o comando para ativar o buzzer e o Led.
+
+Da biblioteca machine foram usados a classe Pin e as funções idle e freq. A classe Pin é usado para controlar os pinos de entrada e saída do esp, as funções idle e freq são usadas para diminuir o consumo de energia do esp. Foi considerado usar deepsleep para diminuir o consumo de energia, contudo essa função não foi adequada para o projeto. 
+
+A biblioteca time foi usada para controlar o tempo que o buzzer faz barulho e o Led pisca.
+
+No arquivo links tem o link de onde está cada biblioteca na documentação do micropython. 
 
 ## Conclusão e Comentários 
 
