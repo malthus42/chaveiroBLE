@@ -9,3 +9,6 @@ O passo seguinte da elaboração do projeto foi criar a documentação seguindo 
 Depois, veio a fase de testes para transferir o dispositivo da protoboard para uma placa de perfurada de circuito impresso para acomodar todos os componentes. A seguir estão as fotos dessa primeira organização: 
 ![](./placaDeBaixo.jpg)
 ![](./placaDeCima.jpg)
+
+Após avaliar a organização na placa de circuito impresso, foi decidido soldar os componentes diretamente para diminuir o tamanho do dispositivo. Com os componentes conectados, eles foram colados com cola quente, o resultado ficou como na imagem abaixo:
+
