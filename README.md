@@ -74,7 +74,7 @@ Da biblioteca machine foram usados a classe Pin e as funções idle e freq. A cl
 
 A biblioteca time foi usada para controlar o tempo que o buzzer faz barulho e o Led pisca.
 
-No arquivo links tem o link de onde está cada biblioteca na documentação do micropython. 
+No arquivo [links](./links) tem o link de onde está cada biblioteca na documentação do micropython. 
 
 ## Conclusão e Comentários 
 
