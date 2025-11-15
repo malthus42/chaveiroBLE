@@ -32,10 +32,22 @@ A aplicação executada no dispositivo tem vários arquivos. (Que foram copiados
 
 | Nome | Quantidade | link para foto do componente, de fato, utilizado |
 | --- | --- | --- |
-| Placa de desenvolvimento Ai-Thinker ESP32-C3 | 1 | Figura x, ... |
-| Protoboard | 1 | Na figura x, ... |
-| Buzzer | 1 | Na figura x, ... |
-| chaveiro led | 1 | Na figura y, ... |
+| Placa de desenvolvimento Ai-Thinker ESP32-C3 | 1 | Figura 1 |
+| Protoboard | 1 | Figura 2 |
+| Buzzer | 1 | Figura 3 |
+| chaveiro led | 1 | Figura 4 |
+
+Figura 1:
+![](./esp32-3c.jpg)
+
+Figura 2:
+![](./protoboard.webp)
+
+Figura 3:
+![](./buzzer.jpj)
+
+Figura 4:
+![](./chaveiro.jpg)
 
 #### Montagem
 
