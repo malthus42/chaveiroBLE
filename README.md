@@ -38,15 +38,19 @@ A aplicação executada no dispositivo tem vários arquivos. (Que foram copiados
 | chaveiro led | 1 | Figura 4 |
 
 Figura 1:
+
 ![](./esp32-3c.jpg)
 
 Figura 2:
+
 ![](./protoboard.webp)
 
 Figura 3:
-![](./buzzer.jpj)
+
+![](./buzzer.jpg)
 
 Figura 4:
+
 ![](./chaveiro.jpg)
 
 #### Montagem
