@@ -2,6 +2,8 @@ documentação do micropython:
 
 bluetooth:
 https://docs.micropython.org/en/latest/library/bluetooth.html#module-bluetooth
+https://www.bluetooth.com/bluetooth-resources/intro-to-bluetooth-gap-gatt/
+https://academy.nordicsemi.com/courses/bluetooth-low-energy-fundamentals/lessons/lesson-1-bluetooth-low-energy-introduction/topic/gap-device-roles-and-topologies/
 
 machine - Pin:
 https://docs.micropython.org/en/latest/library/machine.Pin.html#class-pin-control-i-o-pins
@@ -17,3 +19,16 @@ https://docs.micropython.org/en/latest/library/time.html#module-time
 
 deepsleep:
 https://docs.micropython.org/en/latest/library/machine.html#machine.deepsleep
+
+react native:
+https://www.youtube.com/watch?v=sm5Y7Vtuihg
+
+react-native-ble-plx:
+https://dotintent.github.io/react-native-ble-plx/
+https://andreadams.com.br/react-native-ble-plx/
+
+exemplos e tutoriais:
+https://github.com/2black0/MicroPython-ESP32-BLE/tree/main
+https://www.aranacorp.com/pt/gerenciando-ble-em-um-esp32-com-micropython/
+
+
