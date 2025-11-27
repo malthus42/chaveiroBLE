@@ -56,8 +56,6 @@ def ble_irq(event, data):
                         muda_estagio_led()
                         time.sleep(0.2)
                     buzzer.value(0)
-                elif cmd == "0":
-                    led.on()
             except Exception as e:
                 print("Erro lendo comando:", e)
 
