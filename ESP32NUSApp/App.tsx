@@ -13,7 +13,6 @@ export default function App() {
   const [connected, setConnected] = useState(false);
 
   useEffect(() => {
-    // Solicitar permissões no Android >= 6.0
     if (Platform.OS === "android" && Platform.Version >= 23) {
       PermissionsAndroid.requestMultiple([
         PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
