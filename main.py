@@ -20,15 +20,10 @@ NUS_RX_UUID = bluetooth.UUID("6E400002-B5A3-F393-E0A9-E50E24DCCA9E")
 NUS_TX_FLAG = bluetooth.FLAG_NOTIFY
 NUS_RX_FLAG = bluetooth.FLAG_WRITE
 
-NUS_SERVICE = (
-    NUS_UUID,
-    (
-        (NUS_TX_UUID, NUS_TX_FLAG),
-        (NUS_RX_UUID, NUS_RX_FLAG),
-    ),
-)
+NUS_SERVICE = (NUS_UUID,((NUS_TX_UUID, NUS_TX_FLAG),(NUS_RX_UUID, NUS_RX_FLAG),),)
 
 services = (NUS_SERVICE,)
+
 ((tx_handle, rx_handle),) = ble.gatts_register_services(services)
 
 def muda_estagio_led():
