@@ -20,7 +20,7 @@ Do ponto de vista construtivo é um sistema de informação composto por circuit
 
 ## Método (de execução do projeto)
 
-Usou-se o método descrito em [Método](./descricaoMetodo.md) . O tipo de projeto é forma de documentação foram escolhidos com base nas diretrizes da disciplina https://github.com/FNakano/CFA/blob/master/diretrizes.md .
+Usou-se o método descrito em [Método](./descricaoMetodo.md) . O tipo de projeto e forma de documentação foram escolhidos com base nas diretrizes da disciplina https://github.com/FNakano/CFA/blob/master/diretrizes.md .
 
 A aplicação executada no dispositivo tem vários arquivos. (Que foram copiados para esse repositório...)
 
