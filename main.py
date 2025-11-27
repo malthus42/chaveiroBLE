@@ -37,13 +37,12 @@ def muda_estagio_led():
     big_led.value(1)
     
 def ble_irq(event, data):
-    if event == 1:  # Conectado
+    if event == 1:  
         print("Conectado")
-    elif event == 2:  # Desconectado
+    elif event == 2:  
         print("Desconectado")
-        # Reanuncia com intervalo maior (2 s)
         ble.gap_advertise(2_000_000, adv_payload)
-    elif event == 3:  # Recebeu dados
+    elif event == 3:  
         conn_handle, attr_handle = data
         if attr_handle == rx_handle:
             value = ble.gatts_read(rx_handle)
@@ -64,7 +63,6 @@ def ble_irq(event, data):
 
 ble.irq(ble_irq)
 
-# === Função para gerar payload de anúncio ===
 def make_adv_payload(name=None):
     payload = bytearray(b'\x02\x01\x06')
     if name:
@@ -74,12 +72,10 @@ def make_adv_payload(name=None):
 DEVICE_NAME = "ESP32-NUS"
 adv_payload = make_adv_payload(DEVICE_NAME)
 
-# === Começa a anunciar com intervalo maior (2 s) ===
 led.off()
 ble.gap_advertise(100_000, adv_payload)
-print("Anunciando como:", DEVICE_NAME)
 led.on()
-# Loop principal em idle (economia de energia)
+
 while True:
     idle()
 
